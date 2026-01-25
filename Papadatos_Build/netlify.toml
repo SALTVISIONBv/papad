@@ -1,0 +1,143 @@
+# Netlify Configuration for Unity WebGL with Dynamic AssetBundles
+# Place this file in your WebGL_Build folder
+
+[build]
+  # No build command needed - Unity already built the WebGL output
+  publish = "."
+
+# ============================================================================
+# CRITICAL: Path is /assetbundles/ (lowercase) not /AssetBundles/
+# This must match your actual deployment structure!
+# ============================================================================
+
+# Headers for AssetBundles (.bundle files) - PRIMARY FIX
+[[headers]]
+  for = "/assetbundles/*.bundle"
+  [headers.values]
+    # Set correct MIME type for Unity AssetBundles
+    Content-Type = "application/octet-stream"
+    
+    # Enable long-term caching (1 year) - bundles don't change once built
+    Cache-Control = "public, max-age=31536000, immutable"
+    
+    # CORS headers (if needed for cross-origin requests)
+    Access-Control-Allow-Origin = "*"
+    
+    # CRITICAL: Let Netlify compress with gzip automatically
+    # DO NOT add Content-Encoding header - Netlify handles this
+    # Unity bundles should be UNCOMPRESSED, Netlify will gzip them
+
+# Backup pattern for root-level bundles (case variations)
+[[headers]]
+  for = "/*.bundle"
+  [headers.values]
+    Content-Type = "application/octet-stream"
+    Cache-Control = "public, max-age=31536000, immutable"
+    Access-Control-Allow-Origin = "*"
+
+# Also support capital-A path (in case it changes)
+[[headers]]
+  for = "/AssetBundles/*.bundle"
+  [headers.values]
+    Content-Type = "application/octet-stream"
+    Cache-Control = "public, max-age=31536000, immutable"
+    Access-Control-Allow-Origin = "*"
+
+# Headers for Unity WebGL build files
+[[headers]]
+  for = "/Build/*.data"
+  [headers.values]
+    Content-Type = "application/octet-stream"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/Build/*.wasm"
+  [headers.values]
+    Content-Type = "application/wasm"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/Build/*.js"
+  [headers.values]
+    Content-Type = "application/javascript"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/Build/*.symbols.json"
+  [headers.values]
+    Content-Type = "application/json"
+    Cache-Control = "public, max-age=31536000, immutable"
+
+# Headers for StreamingAssets (shorter cache since these might update)
+[[headers]]
+  for = "/StreamingAssets/*.json"
+  [headers.values]
+    Content-Type = "application/json"
+    # Shorter cache for JSON config files (1 hour)
+    Cache-Control = "public, max-age=3600"
+
+# Headers for main HTML file (no cache - always get latest)
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
+
+# Security and CORS headers for all files (CRITICAL FOR UNITY WEBGL)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    # REQUIRED for Unity WebGL threading/SharedArrayBuffer support
+    Cross-Origin-Embedder-Policy = "require-corp"
+    Cross-Origin-Opener-Policy = "same-origin"
+    
+    # Prevent clickjacking
+    X-Frame-Options = "SAMEORIGIN"
+    
+    # Prevent MIME type sniffing
+    X-Content-Type-Options = "nosniff"
+    
+    # Enable XSS protection
+    X-XSS-Protection = "1; mode=block"
+
+# Redirect rules (if needed)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# ============================================================================
+# DEPLOYMENT CHECKLIST:
+# ============================================================================
+# 1. Build UNCOMPRESSED AssetBundles in Unity
+#    (BuildAssetBundleOptions.UncompressedAssetBundle)
+#
+# 2. Bundles should be in: WebGL_Build/assetbundles/*.bundle (lowercase!)
+#
+# 3. JSON URLs should be: "assetbundles/model.bundle" (no StreamingAssets/)
+#
+# 4. This netlify.toml goes in: WebGL_Build/netlify.toml
+#
+# 5. Netlify will automatically gzip compress bundles when serving
+#
+# 6. Browser receives gzipped → decompresses → Unity loads uncompressed
+#
+# 7. Clear browser cache after deployment!
+#
+# ============================================================================
+# TROUBLESHOOTING:
+# ============================================================================
+# If you see "Failed to decompress" error:
+#   → Bundles are probably LZ4/LZMA compressed instead of uncompressed
+#   → Rebuild bundles with UncompressedAssetBundle option
+#
+# If you see 404 errors:
+#   → Check path in browser Network tab
+#   → Verify bundles are in /assetbundles/ folder (lowercase)
+#   → Check JSON has correct path
+#
+# If you see cache issues:
+#   → Hard refresh browser (Ctrl+Shift+R)
+#   → Clear browser cache completely
+#   → Use incognito/private browsing mode
+#
+# ============================================================================

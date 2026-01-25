@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Muundo 3D Configurator</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    
+    <!-- Fullscreen styling -->
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: #e6e4dd;
+        overflow: hidden;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      }
+      
+      #unity-container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      #unity-canvas {
+        background: #e6e4dd;
+        display: block;
+        width: 100%;
+        height: 100%;
+        max-width: 100%;
+        max-height: 100%;
+      }
+      
+      /* Hide the default Unity loading bar */
+      #unity-loading-bar {
+        display: none !important;
+      }
+      
+      /* Hide Unity logo specifically */
+      #unity-logo {
+        display: none !important;
+      }
+      
+      /* Hide progress bar too */
+      #unity-progress-bar-empty,
+      #unity-progress-bar-full {
+        display: none !important;
+      }
+      
+      #unity-warning {
+        position: absolute;
+        top: 15px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1000;
+      }
+
+      /* Beautiful Custom Loading Screen */
+      #custom-loading-screen {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background: linear-gradient(135deg, #e6e4dd 0%, #d4d2c8 100%);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        transition: opacity 0.5s ease-out, visibility 0.5s ease-out;
+      }
+      
+      #custom-loading-screen.hidden {
+        opacity: 0;
+        visibility: hidden;
+      }
+      
+      .loading-content {
+        text-align: center;
+        max-width: 400px;
+        width: 90%;
+      }
+      
+      .loading-logo {
+        margin-bottom: 2rem;
+      }
+      
+      .loading-logo img {
+        max-width: 200px;
+        height: auto;
+        filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.1));
+      }
+      
+      .loading-text {
+        font-size: 1.1rem;
+        color: #777;
+        margin-bottom: 2.5rem;
+        font-weight: 400;
+      }
+      
+      .progress-container {
+        width: 100%;
+        height: 4px;
+        background: rgba(90, 90, 90, 0.1);
+        border-radius: 2px;
+        overflow: hidden;
+        margin-bottom: 1rem;
+        box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      
+      .progress-bar {
+        height: 100%;
+        background: linear-gradient(90deg, #6366f1, #8b5cf6, #a855f7);
+        background-size: 200% 100%;
+        border-radius: 2px;
+        width: 0%;
+        transition: width 0.3s ease-out;
+        animation: shimmer 2s infinite;
+        box-shadow: 0 0 10px rgba(139, 92, 246, 0.3);
+      }
+      
+      @keyframes shimmer {
+        0% { background-position: 200% 0; }
+        100% { background-position: -200% 0; }
+      }
+      
+      .progress-text {
+        font-size: 0.9rem;
+        color: #666;
+        font-weight: 500;
+        margin-top: 0.5rem;
+      }
+      
+      .loading-dots {
+        display: inline-block;
+        animation: loading-dots 1.5s infinite;
+      }
+      
+      @keyframes loading-dots {
+        0%, 20% { content: ''; }
+        40% { content: '.'; }
+        60% { content: '..'; }
+        80%, 100% { content: '...'; }
+      }
+      
+      /* Elegant fade-in animation */
+      @keyframes fadeInUp {
+        from {
+          opacity: 0;
+          transform: translateY(20px);
+        }
+        to {
+          opacity: 1;
+          transform: translateY(0);
+        }
+      }
+      
+      .loading-content > * {
+        animation: fadeInUp 0.6s ease-out;
+      }
+      
+      .loading-content > *:nth-child(2) {
+        animation-delay: 0.1s;
+      }
+      
+      .loading-content > *:nth-child(3) {
+        animation-delay: 0.2s;
+      }
+      
+      .loading-content > *:nth-child(4) {
+        animation-delay: 0.3s;
+      }
+      
+      /* Mobile responsiveness */
+      @media (max-width: 768px) {
+        .loading-logo img {
+          max-width: 150px;
+        }
+        
+        .loading-text {
+          font-size: 1rem;
+          margin-bottom: 2rem;
+        }
+        
+        .loading-content {
+          width: 85%;
+        }
+      }
+    </style>
+    
+    <!-- PlayerPrefs hardcore fix that must run before anything else -->
+    <script>
+      // Intercept and fix localStorage and PlayerPrefs storage before Unity loads
+      (function() {
+        // Create a fake Promise-like localStorage with then() method
+        var promiseLocalStorage = {
+          _data: {},
+          getItem: function(key) { 
+            return this._data[key] || null; 
+          },
+          setItem: function(key, value) { 
+            this._data[key] = String(value); 
+            return value;
+          },
+          removeItem: function(key) { 
+            delete this._data[key]; 
+          },
+          clear: function() { 
+            this._data = {}; 
+          },
+          then: function(callback) { 
+            // Make it act like a Promise
+            callback(this);
+            return this;
+          },
+          catch: function(callback) { 
+            // Make it act like a Promise
+            return this;
+          }
+        };
+
+        // Define all possible functions that Unity might use
+        window.getUserConfig = function() { return promiseLocalStorage; };
+        window._GetUserConfig = function() { return promiseLocalStorage; };
+        window.GetUserConfig = function() { return promiseLocalStorage; };
+        window.testUserConfigStorage = function() { return promiseLocalStorage; };
+        
+        // Override default localStorage as well
+        try {
+          // Test if localStorage is available
+          window.localStorage.getItem("test");
+        } catch (e) {
+          // Replace localStorage if not available
+          window.localStorage = promiseLocalStorage;
+        }
+        
+        console.log("Advanced PlayerPrefs polyfill installed");
+      })();
+      
+      // Disable Service Worker to prevent any conflicts
+      if ('serviceWorker' in navigator) {
+        navigator.serviceWorker.getRegistrations().then(function(registrations) {
+          for(let registration of registrations) {
+            registration.unregister();
+            console.log('ServiceWorker unregistered');
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <!-- Custom Beautiful Loading Screen -->
+    <div id="custom-loading-screen">
+      <div class="loading-content">
+        <div class="loading-logo">
+          <img src="MUUNDO_logo.png" alt="Muundo Logo">
+        </div>
+        <div class="loading-text">Loading your 3D configurator<span class="loading-dots"></span></div>
+        <div class="progress-container">
+          <div class="progress-bar" id="custom-progress-bar"></div>
+        </div>
+        <div class="progress-text" id="progress-text">0%</div>
+      </div>
+    </div>
+
+    <div id="unity-container" class="unity-desktop">
+      <canvas id="unity-canvas"></canvas>
+      <div id="unity-loading-bar">
+        <div id="unity-logo"></div>
+        <div id="unity-progress-bar-empty">
+          <div id="unity-progress-bar-full"></div>
+        </div>
+      </div>
+      <div id="unity-warning"> </div>
+    </div>
+    
+    <script>
+      var container = document.querySelector("#unity-container");
+      var canvas = document.querySelector("#unity-canvas");
+      var loadingBar = document.querySelector("#unity-loading-bar");
+      var progressBarFull = document.querySelector("#unity-progress-bar-full");
+      var warningBanner = document.querySelector("#unity-warning");
+
+      // Custom loading screen elements
+      var customLoadingScreen = document.querySelector("#custom-loading-screen");
+      var customProgressBar = document.querySelector("#custom-progress-bar");
+      var progressText = document.querySelector("#progress-text");
+
+      // Shows a temporary message banner/ribbon for a few seconds, or
+      // a permanent error message on top of the canvas if type=='error'.
+      function unityShowBanner(msg, type) {
+        function updateBannerVisibility() {
+          warningBanner.style.display = warningBanner.children.length ? 'block' : 'none';
+        }
+        var div = document.createElement('div');
+        div.innerHTML = msg;
+        warningBanner.appendChild(div);
+        if (type == 'error') div.style = 'background: red; padding: 10px;';
+        else {
+          if (type == 'warning') div.style = 'background: yellow; padding: 10px;';
+          setTimeout(function() {
+            warningBanner.removeChild(div);
+            updateBannerVisibility();
+          }, 5000);
+        }
+        updateBannerVisibility();
+      }
+
+      var buildUrl = "Build";
+      var loaderUrl = buildUrl + "/WebGL_Build.loader.js";
+      var config = {
+        dataUrl: buildUrl + "/WebGL_Build.data",
+        frameworkUrl: buildUrl + "/WebGL_Build.framework.js",
+        codeUrl: buildUrl + "/WebGL_Build.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "Saltvision",
+        productName: "Muundo 3D Configurator",
+        productVersion: "1.0",
+        showBanner: unityShowBanner,
+      };
+
+      // Mobile device detection and viewport setup
+      if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
+        var meta = document.createElement('meta');
+        meta.name = 'viewport';
+        meta.content = 'width=device-width, height=device-height, initial-scale=1.0, user-scalable=no, shrink-to-fit=yes';
+        document.getElementsByTagName('head')[0].appendChild(meta);
+        container.className = "unity-mobile";
+        canvas.className = "unity-mobile";
+        
+        unityShowBanner('WebGL builds are not supported on mobile devices.');
+      } else {
+        // Desktop style: Responsive canvas that fills available space
+        canvas.style.width = "100%";
+        canvas.style.height = "100%";
+        
+        // Set container to fill viewport
+        container.style.width = "100vw";
+        container.style.height = "100vh";
+        container.style.margin = "0";
+        container.style.padding = "0";
+      }
+
+      // Set canvas background if needed
+      // canvas.style.background = "url('" + buildUrl + "/background.jpg') center / cover";
+
+      var script = document.createElement("script");
+      script.src = loaderUrl;
+      script.onload = () => {
+        createUnityInstance(canvas, config, (progress) => {
+          // Update our beautiful custom progress bar
+          var percentage = Math.round(progress * 100);
+          customProgressBar.style.width = percentage + "%";
+          progressText.textContent = percentage + "%";
+          
+          console.log("Loading progress: " + percentage + "%");
+        }).then((unityInstance) => {
+          // Hide the custom loading screen with a smooth transition
+          setTimeout(() => {
+            customLoadingScreen.classList.add('hidden');
+            // Remove the loading screen from DOM after transition
+            setTimeout(() => {
+              customLoadingScreen.remove();
+            }, 500);
+          }, 500); // Small delay to show 100% briefly
+          
+          // Store the unityInstance for global access
+          window.unityInstance = unityInstance;
+          
+          // Check if there's a configuration ID in the URL
+          var urlParams = new URLSearchParams(window.location.search);
+          var configId = urlParams.get('id');
+          if (configId) {
+            console.log("Found configuration ID in URL: " + configId);
+            // Send to JSONBin system instead of Firebase
+            if (unityInstance.SendMessage) {
+              // Try different possible SceneManager names
+              try {
+                unityInstance.SendMessage('SceneManager', 'TestLoadConfiguration', configId);
+              } catch (e) {
+                console.log("SceneManager not found, trying other methods...");
+              }
+            }
+          }
+        }).catch((message) => {
+          console.error("Unity error: ", message);
+          // Update loading screen to show error
+          progressText.textContent = "Loading failed";
+          customProgressBar.style.background = "linear-gradient(90deg, #ef4444, #dc2626)";
+          unityShowBanner('Failed to load Unity application: ' + message, 'error');
+        });
+      };
+
+      script.onerror = () => {
+        // Update loading screen to show error
+        progressText.textContent = "Loading failed";
+        customProgressBar.style.background = "linear-gradient(90deg, #ef4444, #dc2626)";
+        unityShowBanner('Failed to load Unity loader script. Check your internet connection and try again.', 'error');
+      };
+
+      document.body.appendChild(script);
+    </script>
+
+    <!-- JSONBin Integration Functions -->
+    <script>
+      // Function to copy text to clipboard (for your save/share functionality)
+      window.CopyToClipboardJS = function(text) {
+        if (navigator.clipboard && window.isSecureContext) {
+          navigator.clipboard.writeText(text).then(function() {
+            console.log('Text copied to clipboard successfully');
+            // Notify Unity if needed
+            if (window.unityInstance && window.unityInstance.SendMessage) {
+              try {
+                window.unityInstance.SendMessage('JSONBinUIController', 'OnClipboardCopySuccess', text);
+              } catch (e) {
+                // Try alternative callback names
+                try {
+                  window.unityInstance.SendMessage('JSONBinUIController', 'OnClipboardSuccess', text);
+                } catch (e2) {
+                  console.log('Unity clipboard callback not found, but copy was successful');
+                }
+              }
+            }
+          }).catch(function(err) {
+            console.error('Failed to copy text to clipboard:', err);
+            // Fallback method
+            fallbackCopyTextToClipboard(text);
+          });
+        } else {
+          // Fallback for older browsers
+          fallbackCopyTextToClipboard(text);
+        }
+      };
+
+      function fallbackCopyTextToClipboard(text) {
+        var textArea = document.createElement("textarea");
+        textArea.value = text;
+        
+        // Avoid scrolling to bottom
+        textArea.style.top = "0";
+        textArea.style.left = "0";
+        textArea.style.position = "fixed";
+
+        document.body.appendChild(textArea);
+        textArea.focus();
+        textArea.select();
+
+        try {
+          var successful = document.execCommand('copy');
+          if (successful) {
+            console.log('Text copied to clipboard using fallback method');
+            if (window.unityInstance && window.unityInstance.SendMessage) {
+              try {
+                window.unityInstance.SendMessage('JSONBinUIController', 'OnClipboardCopySuccess', text);
+              } catch (e) {
+                try {
+                  window.unityInstance.SendMessage('JSONBinUIController', 'OnClipboardSuccess', text);
+                } catch (e2) {
+                  console.log('Unity clipboard callback not found, but copy was successful');
+                }
+              }
+            }
+          } else {
+            console.error('Fallback copy to clipboard failed');
+            if (window.unityInstance && window.unityInstance.SendMessage) {
+              try {
+                window.unityInstance.SendMessage('JSONBinUIController', 'OnClipboardCopyFailed', 'Copy command failed');
+              } catch (e) {
+                try {
+                  window.unityInstance.SendMessage('JSONBinUIController', 'OnClipboardFailed', 'Copy command failed');
+                } catch (e2) {
+                  console.log('Unity clipboard error callback not found');
+                }
+              }
+            }
+          }
+        } catch (err) {
+          console.error('Fallback copy to clipboard failed:', err);
+          if (window.unityInstance && window.unityInstance.SendMessage) {
+            try {
+              window.unityInstance.SendMessage('JSONBinUIController', 'OnClipboardCopyFailed', err.toString());
+            } catch (e) {
+              try {
+                window.unityInstance.SendMessage('JSONBinUIController', 'OnClipboardFailed', err.toString());
+              } catch (e2) {
+                console.log('Unity clipboard error callback not found');
+              }
+            }
+          }
+        }
+
+        document.body.removeChild(textArea);
+      }
+
+      // Function to open invoice in new window (for your invoice functionality)
+      window.OpenInvoiceInNewWindow = function(htmlContent) {
+        var newWindow = window.open('', '_blank');
+        if (newWindow) {
+          newWindow.document.write(htmlContent);
+          newWindow.document.close();
+          console.log('Invoice opened in new window');
+        } else {
+          console.error('Failed to open new window - popup blocked?');
+          alert('Please allow popups for this site to view the invoice.');
+        }
+      };
+
+      // Function to save screenshot (for your screenshot functionality)
+      window.SaveScreenshot = function(base64Image, fileName) {
+        try {
+          // Convert base64 to blob
+          var byteCharacters = atob(base64Image);
+          var byteNumbers = new Array(byteCharacters.length);
+          for (var i = 0; i < byteCharacters.length; i++) {
+            byteNumbers[i] = byteCharacters.charCodeAt(i);
+          }
+          var byteArray = new Uint8Array(byteNumbers);
+          var blob = new Blob([byteArray], {type: 'image/png'});
+
+          // Create download link
+          var link = document.createElement('a');
+          link.href = URL.createObjectURL(blob);
+          link.download = fileName + '.png';
+          
+          // Trigger download
+          document.body.appendChild(link);
+          link.click();
+          document.body.removeChild(link);
+          
+          // Clean up
+          URL.revokeObjectURL(link.href);
+          
+          console.log('Screenshot saved:', fileName);
+        } catch (error) {
+          console.error('Error saving screenshot:', error);
+        }
+      };
+    </script>
+    
+    <!-- Final fallback fix for any remaining getUserConfig/localStorage issues -->
+    <script>
+      // One more emergency fix for getUserConfig() trying to use then()
+      if (typeof window.getUserConfig !== 'function' || 
+          typeof window.getUserConfig().then !== 'function') {
+        
+        console.log("Applying emergency getUserConfig fix");
+        
+        var promiseLocalStorageFallback = {
+          _data: {},
+          getItem: function(key) { return this._data[key] || null; },
+          setItem: function(key, value) { this._data[key] = String(value); return value; },
+          removeItem: function(key) { delete this._data[key]; },
+          clear: function() { this._data = {}; },
+          then: function(callback) { callback(this); return this; },
+          catch: function(callback) { return this; }
+        };
+        
+        window.getUserConfig = function() { return promiseLocalStorageFallback; };
+        window._GetUserConfig = function() { return promiseLocalStorageFallback; };
+      }
+    </script>
+  </body>
+</html>
