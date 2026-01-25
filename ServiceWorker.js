@@ -1,9 +1,9 @@
 const cacheName = "Saltvision-Papadatos-1.0.0";
 const contentToCache = [
-    "Build/WebGl_Build.loader.js",
-    "Build/WebGl_Build.framework.js",
-    "Build/WebGl_Build.data",
-    "Build/WebGl_Build.wasm",
+    "Build/Papadatos_Build.loader.js",
+    "Build/Papadatos_Build.framework.js",
+    "Build/Papadatos_Build.data",
+    "Build/Papadatos_Build.wasm",
     "TemplateData/style.css"
 ];
 
