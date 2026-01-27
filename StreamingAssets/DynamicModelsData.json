@@ -1184,9 +1184,9 @@
             "modelName": "Sofa-Balthazar-Daybed with 1 arm left-160x105",
             "githubUrl": "assetbundles/sofa-balthazar-daybed with 1 arm left-160x105.bundle",
             "position": {
-                "x": -9.520002365112305,
+                "x": -9.630000114440918,
                 "y": -4.65500020980835,
-                "z": 125.19000244140625
+                "z": 124.19000244140625
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1404,7 +1404,7 @@
             "modelName": "Sofa-InCloud-Sofa with no arms left or right 110cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with no arms left or right 110cm.bundle",
             "position": {
-                "x": 8.762999534606934,
+                "x": 8.789999961853028,
                 "y": -4.65500020980835,
                 "z": 65.4540023803711
             },
@@ -2024,9 +2024,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 132cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 132cm.bundle",
             "position": {
-                "x": 4.289999961853027,
+                "x": 4.289000034332275,
                 "y": -4.65500020980835,
-                "z": 63.45000076293945
+                "z": 63.70600128173828
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2675,7 +2675,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 1.0,
+                "x": -1.0,
                 "y": 1.0,
                 "z": 1.0
             }
@@ -4275,7 +4275,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 1.0,
+                "x": -1.0,
                 "y": 1.0,
                 "z": 1.0
             }
@@ -4495,7 +4495,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 1.0,
+                "x": -1.0,
                 "y": 1.0,
                 "z": 1.0
             }
