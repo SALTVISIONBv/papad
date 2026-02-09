@@ -264,9 +264,9 @@
             "modelName": "Sofa-Naos-Sofa with no arms and platform left-230",
             "githubUrl": "assetbundles/sofa-naos-sofa with no arms and platform left-230.bundle",
             "position": {
-                "x": -10.460000038146973,
+                "x": -4.649999141693115,
                 "y": -4.545000076293945,
-                "z": 100.83000183105469
+                "z": 101.489990234375
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -324,9 +324,9 @@
             "modelName": "Sofa-Naos-Sofa with 1 arm and platform 40cm left-258",
             "githubUrl": "assetbundles/sofa-naos-sofa with 1 arm and platform 40cm left-258.bundle",
             "position": {
-                "x": -16.420000076293947,
+                "x": -4.489999771118164,
                 "y": -4.651150703430176,
-                "z": 105.18000793457031
+                "z": 104.69999694824219
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1144,9 +1144,9 @@
             "modelName": "Sofa-Naos-Sofa with no arms and platform right-240",
             "githubUrl": "assetbundles/sofa-naos-sofa with no arms and platform right-240.bundle",
             "position": {
-                "x": -10.309998512268067,
+                "x": -4.499997615814209,
                 "y": -4.651150703430176,
-                "z": 99.19000244140625
+                "z": 99.84999084472656
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1164,9 +1164,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 102cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 102cm.bundle",
             "position": {
-                "x": 3.8400001525878908,
+                "x": 2.259999990463257,
                 "y": -4.65500020980835,
-                "z": 59.029998779296878
+                "z": 67.54000091552735
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1224,9 +1224,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 152cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 152cm.bundle",
             "position": {
-                "x": 8.25,
+                "x": 7.799999713897705,
                 "y": -4.65500020980835,
-                "z": 63.95000076293945
+                "z": 69.30999755859375
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1604,9 +1604,9 @@
             "modelName": "Sofa-Naos-Sofa with 1 arm and platform 40cm right-258",
             "githubUrl": "assetbundles/sofa-naos-sofa with 1 arm and platform 40cm right-258.bundle",
             "position": {
-                "x": -19.339998245239259,
+                "x": -7.409997463226318,
                 "y": -4.651150703430176,
-                "z": 106.62000274658203
+                "z": 106.1399917602539
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2024,9 +2024,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 132cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 132cm.bundle",
             "position": {
-                "x": 4.289000034332275,
+                "x": 3.8389997482299806,
                 "y": -4.65500020980835,
-                "z": 63.70600128173828
+                "z": 69.06600189208985
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2324,9 +2324,9 @@
             "modelName": "Sofa-Naos-Sofa with no arms and platform left-220",
             "githubUrl": "assetbundles/sofa-naos-sofa with no arms and platform left-220.bundle",
             "position": {
-                "x": -13.00999927520752,
+                "x": -7.199998378753662,
                 "y": -4.651150703430176,
-                "z": 100.8800048828125
+                "z": 101.53999328613281
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2664,9 +2664,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 112cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 112cm.bundle",
             "position": {
-                "x": 11.449999809265137,
+                "x": 11.0,
                 "y": -4.65500020980835,
-                "z": 62.5
+                "z": 67.86000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2675,7 +2675,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": -1.0,
+                "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             }
@@ -2684,9 +2684,9 @@
             "modelName": "Sofa-Naos-Sofa with no arms and platform left-240",
             "githubUrl": "assetbundles/sofa-naos-sofa with no arms and platform left-240.bundle",
             "position": {
-                "x": -7.219997882843018,
+                "x": -1.409997582435608,
                 "y": -4.651150703430176,
-                "z": 99.25
+                "z": 99.90998840332031
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2964,9 +2964,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 122cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 122cm.bundle",
             "position": {
-                "x": 2.309999942779541,
+                "x": 0.4989997148513794,
                 "y": -4.65500020980835,
-                "z": 61.927001953125
+                "z": 66.177001953125
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3044,9 +3044,9 @@
             "modelName": "Sofa-Naos-Sofa with 1 arm and platform 40cm right-268",
             "githubUrl": "assetbundles/sofa-naos-sofa with 1 arm and platform 40cm right-268.bundle",
             "position": {
-                "x": -19.229997634887697,
+                "x": -7.299996852874756,
                 "y": -4.651150703430176,
-                "z": 105.27000427246094
+                "z": 104.78999328613281
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3784,9 +3784,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 142cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 142cm.bundle",
             "position": {
-                "x": 6.180000305175781,
+                "x": 5.730000019073486,
                 "y": -4.65500020980835,
-                "z": 63.52000045776367
+                "z": 68.8800048828125
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3984,9 +3984,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 112cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 112cm.bundle",
             "position": {
-                "x": 2.5799999237060549,
+                "x": 0.8199996948242188,
                 "y": -4.65500020980835,
-                "z": 58.9530029296875
+                "z": 67.27000427246094
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4124,9 +4124,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 152cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 152cm.bundle",
             "position": {
-                "x": 8.307999610900879,
+                "x": 7.857999801635742,
                 "y": -4.65500020980835,
-                "z": 62.46000289916992
+                "z": 67.84000396728516
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4304,9 +4304,9 @@
             "modelName": "Sofa-Naos-Sofa with no arms and platform right-230",
             "githubUrl": "assetbundles/sofa-naos-sofa with no arms and platform right-230.bundle",
             "position": {
-                "x": -13.10999870300293,
+                "x": -7.299997806549072,
                 "y": -4.651150703430176,
-                "z": 102.11000061035156
+                "z": 102.76998901367188
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4484,9 +4484,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 132cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 132cm.bundle",
             "position": {
-                "x": 4.369999885559082,
+                "x": 3.919999599456787,
                 "y": -4.65500020980835,
-                "z": 62.06999969482422
+                "z": 67.43000030517578
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4495,7 +4495,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": -1.0,
+                "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             }
@@ -4844,9 +4844,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 102cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 102cm.bundle",
             "position": {
-                "x": 10.309999465942383,
+                "x": 9.85999870300293,
                 "y": -4.65500020980835,
-                "z": 62.28000259399414
+                "z": 67.63999938964844
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4884,9 +4884,9 @@
             "modelName": "Sofa-Naos-Sofa with no arms and platform left-210",
             "githubUrl": "assetbundles/sofa-naos-sofa with no arms and platform left-210.bundle",
             "position": {
-                "x": -13.029998779296875,
+                "x": -7.219997882843018,
                 "y": -4.651150703430176,
-                "z": 99.25
+                "z": 99.90998840332031
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5164,9 +5164,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 122cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 122cm.bundle",
             "position": {
-                "x": 2.388000011444092,
+                "x": 1.9379997253417969,
                 "y": -4.65500020980835,
-                "z": 63.74100112915039
+                "z": 69.10099792480469
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5344,9 +5344,9 @@
             "modelName": "Sofa-Naos-Sofa with 1 arm and platform 40cm left-268",
             "githubUrl": "assetbundles/sofa-naos-sofa with 1 arm and platform 40cm left-268.bundle",
             "position": {
-                "x": -16.35999870300293,
+                "x": -4.42999792098999,
                 "y": -4.651150703430176,
-                "z": 106.70000457763672
+                "z": 106.2199935913086
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5424,9 +5424,9 @@
             "modelName": "Sofa-Naos-Sofa with no arms and platform right-220",
             "githubUrl": "assetbundles/sofa-naos-sofa with no arms and platform right-220.bundle",
             "position": {
-                "x": -7.759998798370361,
+                "x": -1.9499984979629517,
                 "y": -4.651150703430176,
-                "z": 100.8800048828125
+                "z": 101.53999328613281
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5904,9 +5904,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 142cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 142cm.bundle",
             "position": {
-                "x": 6.4170002937316898,
+                "x": 5.9670000076293949,
                 "y": -4.65500020980835,
-                "z": 62.230003356933597
+                "z": 67.59000396728516
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6324,9 +6324,9 @@
             "modelName": "Sofa-Naos-Sofa with no arms and platform right-210",
             "githubUrl": "assetbundles/sofa-naos-sofa with no arms and platform right-210.bundle",
             "position": {
-                "x": -10.479998588562012,
+                "x": -4.669997692108154,
                 "y": -4.651150703430176,
-                "z": 102.08000183105469
+                "z": 102.739990234375
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6464,9 +6464,9 @@
             "modelName": "Sofa_Moon_sofa_1arm_left_small",
             "githubUrl": "assetbundles/sofa_moon_sofa_1arm_left_small.bundle",
             "position": {
-                "x": -15.34000015258789,
+                "x": -15.631999969482422,
                 "y": -4.65500020980835,
-                "z": 70.20000457763672
+                "z": 69.20800018310547
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6484,9 +6484,9 @@
             "modelName": "Sofa_Moon_sofa_noarms_chaiselongue_left_small",
             "githubUrl": "assetbundles/sofa_moon_sofa_noarms_chaiselongue_left_small.bundle",
             "position": {
-                "x": -15.40999984741211,
+                "x": -15.711999893188477,
                 "y": -4.65500020980835,
-                "z": 63.26000213623047
+                "z": 60.61199951171875
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6524,9 +6524,9 @@
             "modelName": "Sofa_Moon_sofa_noarms_chaiselongue_left_medium",
             "githubUrl": "assetbundles/sofa_moon_sofa_noarms_chaiselongue_left_medium.bundle",
             "position": {
-                "x": -15.440000534057618,
+                "x": -15.73900032043457,
                 "y": -4.65500020980835,
-                "z": 61.99000549316406
+                "z": 62.02400207519531
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6544,9 +6544,9 @@
             "modelName": "Sofa_Moon_sofa_1arm_left_medium",
             "githubUrl": "assetbundles/sofa_moon_sofa_1arm_left_medium.bundle",
             "position": {
-                "x": -15.197999954223633,
+                "x": -15.637001037597657,
                 "y": -4.65500020980835,
-                "z": 68.11399841308594
+                "z": 66.4780044555664
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6604,9 +6604,9 @@
             "modelName": "Sofa_Moon_sofa_noarms_chaiselongue_left_xlarge",
             "githubUrl": "assetbundles/sofa_moon_sofa_noarms_chaiselongue_left_xlarge.bundle",
             "position": {
-                "x": -15.184000015258789,
-                "y": -4.214000225067139,
-                "z": 64.91100311279297
+                "x": -15.48900032043457,
+                "y": -4.65500020980835,
+                "z": 65.072998046875
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6624,9 +6624,9 @@
             "modelName": "Sofa_Moon_sofa_1arm_left_xlarge",
             "githubUrl": "assetbundles/sofa_moon_sofa_1arm_left_xlarge.bundle",
             "position": {
-                "x": -12.485000610351563,
+                "x": -15.48699951171875,
                 "y": -4.65500020980835,
-                "z": 66.85900115966797
+                "z": 67.95899963378906
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6644,9 +6644,9 @@
             "modelName": "Sofa_Moon_sofa_noarms_chaiselongue_right_medium",
             "githubUrl": "assetbundles/sofa_moon_sofa_noarms_chaiselongue_right_medium.bundle",
             "position": {
-                "x": -20.030000686645509,
+                "x": -21.54199981689453,
                 "y": -4.65500020980835,
-                "z": 65.12000274658203
+                "z": 66.68199920654297
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6684,9 +6684,9 @@
             "modelName": "Sofa_Moon_sofa_noarms_chaiselongue_left_large",
             "githubUrl": "assetbundles/sofa_moon_sofa_noarms_chaiselongue_left_large.bundle",
             "position": {
-                "x": -15.34000015258789,
+                "x": -15.571001052856446,
                 "y": -4.65500020980835,
-                "z": 60.410003662109378
+                "z": 63.61199951171875
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6786,7 +6786,7 @@
             "position": {
                 "x": -17.079999923706056,
                 "y": -4.65500020980835,
-                "z": 60.62000274658203
+                "z": 60.595001220703128
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6815,9 +6815,9 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 0.10000000149011612,
-                "y": 0.10000000149011612,
-                "z": 0.10000000149011612
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
             }
         },
         {
@@ -7858,6 +7858,46 @@
                 "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
+            }
+        },
+        {
+            "modelName": "Sofa-InCloud-Corner left 104x104cm",
+            "githubUrl": "assetbundles/sofa-incloud-corner left 104x104cm.bundle",
+            "position": {
+                "x": 13.39699935913086,
+                "y": -4.65500020980835,
+                "z": 59.492000579833987
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
+            }
+        },
+        {
+            "modelName": "Sofa-InCloud-Corner right 104x104cm",
+            "githubUrl": "assetbundles/sofa-incloud-corner right 104x104cm.bundle",
+            "position": {
+                "x": 14.833999633789063,
+                "y": -4.65500020980835,
+                "z": 59.492000579833987
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 10.0,
+                "y": 10.0,
+                "z": 10.0
             }
         }
     ]
