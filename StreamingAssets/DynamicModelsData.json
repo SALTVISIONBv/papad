@@ -64,9 +64,9 @@
             "modelName": "Sofa-Upper-sofa with 3 cushions-266",
             "githubUrl": "assetbundles/sofa-upper-sofa with 3 cushions-266.bundle",
             "position": {
-                "x": 56.869998931884769,
+                "x": 55.370033264160159,
                 "y": -4.65500020980835,
-                "z": 92.46000671386719
+                "z": 98.86000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -104,9 +104,9 @@
             "modelName": "Sofa-InCloud-Pouf 104x104cm",
             "githubUrl": "assetbundles/sofa-incloud-pouf 104x104cm.bundle",
             "position": {
-                "x": 5.0329999923706059,
+                "x": -53.97099685668945,
                 "y": -4.65500020980835,
-                "z": 60.78900146484375
+                "z": 73.93400573730469
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -124,9 +124,9 @@
             "modelName": "Sofa-InCloud-Daybed with 1 arm right 150x110cm",
             "githubUrl": "assetbundles/sofa-incloud-daybed with 1 arm right 150x110cm.bundle",
             "position": {
-                "x": 6.37000036239624,
+                "x": -53.22999572753906,
                 "y": -4.65500020980835,
-                "z": 58.790000915527347
+                "z": 71.79000091552735
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -204,9 +204,9 @@
             "modelName": "Sofa-Upper-Daybed with 1 arm right-163x118",
             "githubUrl": "assetbundles/sofa-upper-daybed with 1 arm right-163x118.bundle",
             "position": {
-                "x": 69.6500015258789,
+                "x": 68.15003204345703,
                 "y": -4.65500020980835,
-                "z": 94.15000915527344
+                "z": 100.55000305175781
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -215,7 +215,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 1.0,
+                "x": -1.0,
                 "y": 1.0,
                 "z": 1.0
             }
@@ -244,9 +244,9 @@
             "modelName": "Sofa-Upper-Pouf-80x100",
             "githubUrl": "assetbundles/sofa-upper-pouf-80x100.bundle",
             "position": {
-                "x": 69.47000885009766,
+                "x": 67.97003936767578,
                 "y": -4.65500020980835,
-                "z": 98.59000396728516
+                "z": 104.98999786376953
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -364,9 +364,9 @@
             "modelName": "Sofa-Upper-Pentagon daybed with 1 arm right-123x143",
             "githubUrl": "assetbundles/sofa-upper-pentagon daybed with 1 arm right-123x143.bundle",
             "position": {
-                "x": 69.60000610351563,
+                "x": 68.10004425048828,
                 "y": -4.65500020980835,
-                "z": 92.25000762939453
+                "z": 98.6500015258789
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -584,9 +584,9 @@
             "modelName": "Sofa-Upper-Chaise longue right-260",
             "githubUrl": "assetbundles/sofa-upper-chaise longue right-260.bundle",
             "position": {
-                "x": 64.7399673461914,
+                "x": 63.24000930786133,
                 "y": -4.65500020980835,
-                "z": 83.32000732421875
+                "z": 89.72000122070313
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -624,9 +624,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm right-188",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm right-188.bundle",
             "position": {
-                "x": 54.26000213623047,
+                "x": 52.76003646850586,
                 "y": -4.65500020980835,
-                "z": 92.41999816894531
+                "z": 98.81999206542969
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -644,9 +644,9 @@
             "modelName": "Sofa-Upper-Pouf-60x100",
             "githubUrl": "assetbundles/sofa-upper-pouf-60x100.bundle",
             "position": {
-                "x": 67.7300033569336,
+                "x": 66.23003387451172,
                 "y": -4.65500020980835,
-                "z": 99.93000793457031
+                "z": 106.33000183105469
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -744,9 +744,9 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue left-170",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue left-170.bundle",
             "position": {
-                "x": 59.39999771118164,
+                "x": 57.900028228759769,
                 "y": -4.65500020980835,
-                "z": 102.09000396728516
+                "z": 108.48999786376953
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -864,9 +864,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm right-218",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm right-218.bundle",
             "position": {
-                "x": 51.42000198364258,
+                "x": 49.92003631591797,
                 "y": -4.65500020980835,
-                "z": 93.8550033569336
+                "z": 100.25499725341797
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1164,9 +1164,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 102cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 102cm.bundle",
             "position": {
-                "x": 2.259999990463257,
+                "x": -57.339996337890628,
                 "y": -4.65500020980835,
-                "z": 67.54000091552735
+                "z": 80.54000091552735
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1224,9 +1224,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 152cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 152cm.bundle",
             "position": {
-                "x": 7.799999713897705,
+                "x": -51.79999542236328,
                 "y": -4.65500020980835,
-                "z": 69.30999755859375
+                "z": 82.30999755859375
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1404,9 +1404,9 @@
             "modelName": "Sofa-InCloud-Sofa with no arms left or right 110cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with no arms left or right 110cm.bundle",
             "position": {
-                "x": 8.789999961853028,
+                "x": -50.80999755859375,
                 "y": -4.65500020980835,
-                "z": 65.4540023803711
+                "z": 78.4540023803711
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1484,9 +1484,9 @@
             "modelName": "Sofa-InCloud-Pouf 60x104cm",
             "githubUrl": "assetbundles/sofa-incloud-pouf 60x104cm.bundle",
             "position": {
-                "x": 10.347000122070313,
+                "x": -49.27499771118164,
                 "y": -4.65500020980835,
-                "z": 60.94000244140625
+                "z": 73.95800018310547
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1584,9 +1584,9 @@
             "modelName": "Sofa-InCloud-Sofa with no arms left or right 80cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with no arms left or right 80cm.bundle",
             "position": {
-                "x": 10.389999389648438,
+                "x": -49.209999084472659,
                 "y": -4.65500020980835,
-                "z": 63.983001708984378
+                "z": 76.98300170898438
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1664,9 +1664,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm right-208",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm right-208.bundle",
             "position": {
-                "x": 57.09999465942383,
+                "x": 55.60002899169922,
                 "y": -4.65500020980835,
-                "z": 90.82000732421875
+                "z": 97.22000122070313
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1744,9 +1744,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm left-248",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm left-248.bundle",
             "position": {
-                "x": 54.310001373291019,
+                "x": 52.810035705566409,
                 "y": -4.65500020980835,
-                "z": 90.72000122070313
+                "z": 97.1199951171875
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1784,9 +1784,9 @@
             "modelName": "Sofa-Upper-Corner left-103x103",
             "githubUrl": "assetbundles/sofa-upper-corner left-103x103.bundle",
             "position": {
-                "x": 67.9000015258789,
+                "x": 66.40003204345703,
                 "y": -4.65500020980835,
-                "z": 94.0300064086914
+                "z": 100.43000030517578
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1804,9 +1804,9 @@
             "modelName": "Sofa-Upper-sofa with 3 cushions-276",
             "githubUrl": "assetbundles/sofa-upper-sofa with 3 cushions-276.bundle",
             "position": {
-                "x": 62.56999588012695,
+                "x": 61.07002639770508,
                 "y": -4.65500020980835,
-                "z": 92.46000671386719
+                "z": 98.86000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1824,9 +1824,9 @@
             "modelName": "Sofa-Upper-Chaise longue left-230",
             "githubUrl": "assetbundles/sofa-upper-chaise longue left-230.bundle",
             "position": {
-                "x": 71.31999969482422,
+                "x": 69.82003021240235,
                 "y": -4.65500020980835,
-                "z": 87.81000518798828
+                "z": 94.20999908447266
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1864,9 +1864,9 @@
             "modelName": "Sofa-Upper-Chaise longue right-210",
             "githubUrl": "assetbundles/sofa-upper-chaise longue right-210.bundle",
             "position": {
-                "x": 71.25000762939453,
+                "x": 69.75003814697266,
                 "y": -4.65500020980835,
-                "z": 83.71000671386719
+                "z": 90.11000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1884,9 +1884,9 @@
             "modelName": "Sofa-InCloud-Corner right 108x108cm",
             "githubUrl": "assetbundles/sofa-incloud-corner right 108x108cm.bundle",
             "position": {
-                "x": 10.019999504089356,
+                "x": -49.57999801635742,
                 "y": -4.65500020980835,
-                "z": 59.09000015258789
+                "z": 72.08999633789063
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -1984,9 +1984,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm right-198",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm right-198.bundle",
             "position": {
-                "x": 59.72999954223633,
+                "x": 58.23003005981445,
                 "y": -4.65500020980835,
-                "z": 90.80999755859375
+                "z": 97.20999145507813
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2004,9 +2004,9 @@
             "modelName": "Sofa-Upper-Daybed with 1 arm right-163x108",
             "githubUrl": "assetbundles/sofa-upper-daybed with 1 arm right-163x108.bundle",
             "position": {
-                "x": 65.99000549316406,
+                "x": 64.49003601074219,
                 "y": -4.65500020980835,
-                "z": 95.82000732421875
+                "z": 102.22000122070313
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2024,9 +2024,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 132cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 132cm.bundle",
             "position": {
-                "x": 3.8389997482299806,
+                "x": -55.7609977722168,
                 "y": -4.65500020980835,
-                "z": 69.06600189208985
+                "z": 82.06600189208985
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2124,9 +2124,9 @@
             "modelName": "Sofa-Upper-Chaise longue right-220",
             "githubUrl": "assetbundles/sofa-upper-chaise longue right-220.bundle",
             "position": {
-                "x": 67.99000549316406,
+                "x": 66.49004364013672,
                 "y": -4.65500020980835,
-                "z": 90.10000610351563
+                "z": 96.5
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2284,9 +2284,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm left-208",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm left-208.bundle",
             "position": {
-                "x": 59.95999526977539,
+                "x": 58.460025787353519,
                 "y": -4.65500020980835,
-                "z": 94.04000091552735
+                "z": 100.43999481201172
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2344,9 +2344,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm left-228",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm left-228.bundle",
             "position": {
-                "x": 54.400001525878909,
+                "x": 52.9000358581543,
                 "y": -4.65500020980835,
-                "z": 93.82000732421875
+                "z": 100.22000122070313
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2364,9 +2364,9 @@
             "modelName": "Sofa-InCloud-Sofa with no arms left or right 70cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with no arms left or right 70cm.bundle",
             "position": {
-                "x": 11.449999809265137,
+                "x": -48.14999771118164,
                 "y": -4.65500020980835,
-                "z": 64.05999755859375
+                "z": 77.05999755859375
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2404,9 +2404,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm left-238",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm left-238.bundle",
             "position": {
-                "x": 62.78000259399414,
+                "x": 61.280033111572269,
                 "y": -4.65500020980835,
-                "z": 93.94000244140625
+                "z": 100.33999633789063
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2484,9 +2484,9 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue left-160",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue left-160.bundle",
             "position": {
-                "x": 59.39999771118164,
+                "x": 57.900028228759769,
                 "y": -4.65500020980835,
-                "z": 103.54000091552735
+                "z": 109.93999481201172
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2604,9 +2604,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm right-248",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm right-248.bundle",
             "position": {
-                "x": 51.29999923706055,
+                "x": 49.80003356933594,
                 "y": -4.65500020980835,
-                "z": 92.4000015258789
+                "z": 98.79999542236328
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2644,9 +2644,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm left-218",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm left-218.bundle",
             "position": {
-                "x": 51.380001068115237,
+                "x": 49.880035400390628,
                 "y": -4.65500020980835,
-                "z": 90.80999755859375
+                "z": 97.20999145507813
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2664,9 +2664,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 112cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 112cm.bundle",
             "position": {
-                "x": 11.0,
+                "x": -48.599998474121097,
                 "y": -4.65500020980835,
-                "z": 67.86000061035156
+                "z": 80.86000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2724,9 +2724,9 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue left-190",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue left-190.bundle",
             "position": {
-                "x": 56.65999984741211,
+                "x": 55.1600341796875,
                 "y": -4.65500020980835,
-                "z": 100.62999725341797
+                "z": 107.02999114990235
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2964,9 +2964,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 122cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 122cm.bundle",
             "position": {
-                "x": 0.4989997148513794,
+                "x": -59.10099792480469,
                 "y": -4.65500020980835,
-                "z": 66.177001953125
+                "z": 79.177001953125
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -2984,9 +2984,9 @@
             "modelName": "Sofa-Upper-Pouf-60x103",
             "githubUrl": "assetbundles/sofa-upper-pouf-60x103.bundle",
             "position": {
-                "x": 66.24000549316406,
+                "x": 64.74003601074219,
                 "y": -4.65500020980835,
-                "z": 101.25000762939453
+                "z": 107.6500015258789
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3004,9 +3004,9 @@
             "modelName": "Sofa-Upper-Chaise longue left-250",
             "githubUrl": "assetbundles/sofa-upper-chaise longue left-250.bundle",
             "position": {
-                "x": 65.03996276855469,
+                "x": 63.53999710083008,
                 "y": -4.65500020980835,
-                "z": 85.71000671386719
+                "z": 92.11000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3064,9 +3064,9 @@
             "modelName": "Sofa-InCloud-Pouf 70x104cm",
             "githubUrl": "assetbundles/sofa-incloud-pouf 70x104cm.bundle",
             "position": {
-                "x": 9.590999603271485,
+                "x": -49.95299530029297,
                 "y": -4.65500020980835,
-                "z": 60.85200119018555
+                "z": 73.9520034790039
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3124,9 +3124,9 @@
             "modelName": "Sofa-InCloud-Pouf 110x104cm",
             "githubUrl": "assetbundles/sofa-incloud-pouf 110x104cm.bundle",
             "position": {
-                "x": 3.8540000915527345,
+                "x": -55.07099533081055,
                 "y": -4.65500020980835,
-                "z": 60.79899978637695
+                "z": 73.94999694824219
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3184,9 +3184,9 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue left-180",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue left-180.bundle",
             "position": {
-                "x": 59.560001373291019,
+                "x": 58.06003189086914,
                 "y": -4.65500020980835,
-                "z": 100.68000030517578
+                "z": 107.07999420166016
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3284,9 +3284,9 @@
             "modelName": "Sofa-Upper-Pouf-80x120",
             "githubUrl": "assetbundles/sofa-upper-pouf-80x120.bundle",
             "position": {
-                "x": 69.50000762939453,
+                "x": 68.00003814697266,
                 "y": -4.65500020980835,
-                "z": 99.92000579833985
+                "z": 106.31999969482422
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3404,9 +3404,9 @@
             "modelName": "Sofa-Upper-Daybed with 1 arm left-163x108",
             "githubUrl": "assetbundles/sofa-upper-daybed with 1 arm left-163x108.bundle",
             "position": {
-                "x": 68.06000518798828,
+                "x": 66.5600357055664,
                 "y": -4.65500020980835,
-                "z": 95.81000518798828
+                "z": 102.20999908447266
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3524,9 +3524,9 @@
             "modelName": "Sofa-Upper-Pouf-80x103",
             "githubUrl": "assetbundles/sofa-upper-pouf-80x103.bundle",
             "position": {
-                "x": 67.72000885009766,
+                "x": 66.22003936767578,
                 "y": -4.65500020980835,
-                "z": 98.4800033569336
+                "z": 104.87999725341797
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3584,9 +3584,9 @@
             "modelName": "Sofa-InCloud-Pouf 120x104cm",
             "githubUrl": "assetbundles/sofa-incloud-pouf 120x104cm.bundle",
             "position": {
-                "x": 2.430000066757202,
+                "x": -56.278995513916019,
                 "y": -4.65500020980835,
-                "z": 60.44000244140625
+                "z": 73.97799682617188
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3724,9 +3724,9 @@
             "modelName": "Sofa-Upper-Chaise longue right-250",
             "githubUrl": "assetbundles/sofa-upper-chaise longue right-250.bundle",
             "position": {
-                "x": 58.10000228881836,
+                "x": 56.600040435791019,
                 "y": -4.65500020980835,
-                "z": 83.10000610351563
+                "z": 89.5
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3784,9 +3784,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 142cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 142cm.bundle",
             "position": {
-                "x": 5.730000019073486,
+                "x": -53.8699951171875,
                 "y": -4.65500020980835,
-                "z": 68.8800048828125
+                "z": 81.8800048828125
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3884,9 +3884,9 @@
             "modelName": "Sofa-Upper-Pentagon daybed with 1 arm left-123x143",
             "githubUrl": "assetbundles/sofa-upper-pentagon daybed with 1 arm left-123x143.bundle",
             "position": {
-                "x": 71.26000213623047,
+                "x": 69.7600326538086,
                 "y": -4.65500020980835,
-                "z": 92.21000671386719
+                "z": 98.61000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -3984,9 +3984,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 112cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 112cm.bundle",
             "position": {
-                "x": 0.8199996948242188,
+                "x": -58.779998779296878,
                 "y": -4.65500020980835,
-                "z": 67.27000427246094
+                "z": 80.27000427246094
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4044,9 +4044,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm left-198",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm left-198.bundle",
             "position": {
-                "x": 56.95000076293945,
+                "x": 55.450035095214847,
                 "y": -4.65500020980835,
-                "z": 93.84000396728516
+                "z": 100.23999786376953
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4084,9 +4084,9 @@
             "modelName": "Sofa-Upper-Pouf-103x103",
             "githubUrl": "assetbundles/sofa-upper-pouf-103x103.bundle",
             "position": {
-                "x": 66.27000427246094,
+                "x": 64.77003479003906,
                 "y": -4.65500020980835,
-                "z": 99.91000366210938
+                "z": 106.30999755859375
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4104,9 +4104,9 @@
             "modelName": "Sofa-Upper-Chaise longue right-240",
             "githubUrl": "assetbundles/sofa-upper-chaise longue right-240.bundle",
             "position": {
-                "x": 71.1300048828125,
+                "x": 69.63004302978516,
                 "y": -4.65500020980835,
-                "z": 85.91000366210938
+                "z": 92.30999755859375
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4124,9 +4124,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 152cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 152cm.bundle",
             "position": {
-                "x": 7.857999801635742,
+                "x": -51.74199676513672,
                 "y": -4.65500020980835,
-                "z": 67.84000396728516
+                "z": 80.84000396728516
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4164,9 +4164,9 @@
             "modelName": "Sofa-InCloud-Pouf 90x104cm",
             "githubUrl": "assetbundles/sofa-incloud-pouf 90x104cm.bundle",
             "position": {
-                "x": 7.590000629425049,
+                "x": -51.7089958190918,
                 "y": -4.65500020980835,
-                "z": 60.93000030517578
+                "z": 73.9540023803711
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4184,9 +4184,9 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue left-220",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue left-220.bundle",
             "position": {
-                "x": 62.03999710083008,
+                "x": 60.5400276184082,
                 "y": -4.65500020980835,
-                "z": 99.12999725341797
+                "z": 105.52999114990235
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4204,9 +4204,9 @@
             "modelName": "Sofa-Upper-Corner right-103x103",
             "githubUrl": "assetbundles/sofa-upper-corner right-103x103.bundle",
             "position": {
-                "x": 67.90000915527344,
+                "x": 66.4000473022461,
                 "y": -4.65500020980835,
-                "z": 92.22000122070313
+                "z": 98.6199951171875
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4264,9 +4264,9 @@
             "modelName": "Sofa-InCloud-Corner left 108x108cm",
             "githubUrl": "assetbundles/sofa-incloud-corner left 108x108cm.bundle",
             "position": {
-                "x": 11.578999519348145,
+                "x": -48.02099609375,
                 "y": -4.65500020980835,
-                "z": 59.37000274658203
+                "z": 72.37000274658203
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4275,7 +4275,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": -1.0,
+                "x": 1.0,
                 "y": 1.0,
                 "z": 1.0
             }
@@ -4484,9 +4484,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 132cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 132cm.bundle",
             "position": {
-                "x": 3.919999599456787,
+                "x": -55.679996490478519,
                 "y": -4.65500020980835,
-                "z": 67.43000030517578
+                "z": 80.43000030517578
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4584,9 +4584,9 @@
             "modelName": "Sofa-InCloud-Sofa with no arms left or right 100cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with no arms left or right 100cm.bundle",
             "position": {
-                "x": 10.069999694824219,
+                "x": -49.529998779296878,
                 "y": -4.65500020980835,
-                "z": 65.45999908447266
+                "z": 78.46000671386719
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4624,9 +4624,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm left-178",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm left-178.bundle",
             "position": {
-                "x": 54.80000305175781,
+                "x": 53.3000373840332,
                 "y": -4.65500020980835,
-                "z": 96.87000274658203
+                "z": 103.2699966430664
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4684,9 +4684,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm right-238",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm right-238.bundle",
             "position": {
-                "x": 51.77000045776367,
+                "x": 50.27003479003906,
                 "y": -4.65500020980835,
-                "z": 95.33000183105469
+                "z": 101.72999572753906
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4724,9 +4724,9 @@
             "modelName": "Sofa-Upper-Chaise longue left-240",
             "githubUrl": "assetbundles/sofa-upper-chaise longue left-240.bundle",
             "position": {
-                "x": 68.02000427246094,
+                "x": 66.5200424194336,
                 "y": -4.65500020980835,
-                "z": 83.04000854492188
+                "z": 89.44000244140625
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4804,9 +4804,9 @@
             "modelName": "Sofa-InCloud-Sofa with no arms left or right 90cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with no arms left or right 90cm.bundle",
             "position": {
-                "x": 11.4399995803833,
+                "x": -48.159996032714847,
                 "y": -4.65500020980835,
-                "z": 65.42200469970703
+                "z": 78.4219970703125
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4844,9 +4844,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 102cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 102cm.bundle",
             "position": {
-                "x": 9.85999870300293,
+                "x": -49.73999786376953,
                 "y": -4.65500020980835,
-                "z": 67.63999938964844
+                "z": 80.63999938964844
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -4944,9 +4944,9 @@
             "modelName": "Sofa-Upper-Pouf-60x120",
             "githubUrl": "assetbundles/sofa-upper-pouf-60x120.bundle",
             "position": {
-                "x": 67.7061767578125,
+                "x": 66.20621490478516,
                 "y": -4.65500020980835,
-                "z": 101.30000305175781
+                "z": 107.69999694824219
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5004,9 +5004,9 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue left-200",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue left-200.bundle",
             "position": {
-                "x": 52.04999923706055,
+                "x": 50.55003356933594,
                 "y": -4.65500020980835,
-                "z": 99.11000061035156
+                "z": 105.50999450683594
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5164,9 +5164,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm right 122cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm right 122cm.bundle",
             "position": {
-                "x": 1.9379997253417969,
+                "x": -57.6619987487793,
                 "y": -4.65500020980835,
-                "z": 69.10099792480469
+                "z": 82.10099792480469
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5204,9 +5204,9 @@
             "modelName": "Sofa-Upper-Chaise longue left-260",
             "githubUrl": "assetbundles/sofa-upper-chaise longue left-260.bundle",
             "position": {
-                "x": 70.96600341796875,
+                "x": 69.4660415649414,
                 "y": -4.65500020980835,
-                "z": 90.10000610351563
+                "z": 96.5
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5215,7 +5215,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 1.0,
+                "x": -1.0,
                 "y": 1.0,
                 "z": 1.0
             }
@@ -5244,9 +5244,9 @@
             "modelName": "Sofa-Upper-Chaise longue left-220",
             "githubUrl": "assetbundles/sofa-upper-chaise longue left-220.bundle",
             "position": {
-                "x": 68.39000701904297,
+                "x": 66.8900375366211,
                 "y": -4.65500020980835,
-                "z": 85.45000457763672
+                "z": 91.8499984741211
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5564,9 +5564,9 @@
             "modelName": "Sofa-InCloud-Daybed with 1 arm left 150x110cm",
             "githubUrl": "assetbundles/sofa-incloud-daybed with 1 arm left 150x110cm.bundle",
             "position": {
-                "x": 4.960000038146973,
+                "x": -54.63999557495117,
                 "y": -4.65500020980835,
-                "z": 58.83100128173828
+                "z": 71.83100128173828
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5584,9 +5584,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm left-188",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm left-188.bundle",
             "position": {
-                "x": 59.08000564575195,
+                "x": 57.58003616333008,
                 "y": -4.65500020980835,
-                "z": 85.54000091552735
+                "z": 91.93999481201172
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5704,9 +5704,9 @@
             "modelName": "Sofa-InCloud-Sofa with no arms left or right 120cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with no arms left or right 120cm.bundle",
             "position": {
-                "x": 7.207000255584717,
+                "x": -52.39299774169922,
                 "y": -4.65500020980835,
-                "z": 65.36000061035156
+                "z": 78.36000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5744,9 +5744,9 @@
             "modelName": "Sofa-Upper-Chaise longue right-230",
             "githubUrl": "assetbundles/sofa-upper-chaise longue right-230.bundle",
             "position": {
-                "x": 61.64999771118164,
+                "x": 60.150028228759769,
                 "y": -4.65500020980835,
-                "z": 83.45000457763672
+                "z": 89.8499984741211
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5784,9 +5784,9 @@
             "modelName": "Sofa-Upper-Chaise longue left-210",
             "githubUrl": "assetbundles/sofa-upper-chaise longue left-210.bundle",
             "position": {
-                "x": 65.29996490478516,
+                "x": 63.79999923706055,
                 "y": -4.65500020980835,
-                "z": 90.10000610351563
+                "z": 96.5
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5904,9 +5904,9 @@
             "modelName": "Sofa-InCloud-Sofa with 1 arm left 142cm",
             "githubUrl": "assetbundles/sofa-incloud-sofa with 1 arm left 142cm.bundle",
             "position": {
-                "x": 5.9670000076293949,
+                "x": -53.63299560546875,
                 "y": -4.65500020980835,
-                "z": 67.59000396728516
+                "z": 80.59000396728516
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -5944,9 +5944,9 @@
             "modelName": "Sofa-InCloud-Pouf 100x104cm",
             "githubUrl": "assetbundles/sofa-incloud-pouf 100x104cm.bundle",
             "position": {
-                "x": 6.261999607086182,
+                "x": -52.8329963684082,
                 "y": -4.65500020980835,
-                "z": 60.660003662109378
+                "z": 73.94100189208985
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6024,9 +6024,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm right-228",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm right-228.bundle",
             "position": {
-                "x": 52.02000045776367,
+                "x": 50.52003479003906,
                 "y": -4.65500020980835,
-                "z": 96.79000091552735
+                "z": 103.18999481201172
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6044,9 +6044,9 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue left-210",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue left-210.bundle",
             "position": {
-                "x": 62.000003814697269,
+                "x": 60.50003433227539,
                 "y": -4.65500020980835,
-                "z": 100.7300033569336
+                "z": 107.12999725341797
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6124,9 +6124,9 @@
             "modelName": "Sofa-Upper-Daybed with 1 arm left-163x118",
             "githubUrl": "assetbundles/sofa-upper-daybed with 1 arm left-163x118.bundle",
             "position": {
-                "x": 65.99000549316406,
+                "x": 64.49003601074219,
                 "y": -4.65500020980835,
-                "z": 92.16000366210938
+                "z": 98.55999755859375
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6135,7 +6135,7 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 1.0,
+                "x": -1.0,
                 "y": 1.0,
                 "z": 1.0
             }
@@ -6204,9 +6204,9 @@
             "modelName": "Sofa-InCloud-Daybed with 1 arm left 150x130cm",
             "githubUrl": "assetbundles/sofa-incloud-daybed with 1 arm left 150x130cm.bundle",
             "position": {
-                "x": 8.079999923706055,
+                "x": -51.519996643066409,
                 "y": -4.65500020980835,
-                "z": 58.87000274658203
+                "z": 71.87000274658203
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6244,9 +6244,9 @@
             "modelName": "Sofa-Upper-sofa with 1 arm right-178",
             "githubUrl": "assetbundles/sofa-upper-sofa with 1 arm right-178.bundle",
             "position": {
-                "x": 59.67000198364258,
+                "x": 58.1700325012207,
                 "y": -4.65500020980835,
-                "z": 92.46000671386719
+                "z": 98.86000061035156
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6264,9 +6264,9 @@
             "modelName": "Sofa-InCloud-Pouf 80x104cm",
             "githubUrl": "assetbundles/sofa-incloud-pouf 80x104cm.bundle",
             "position": {
-                "x": 8.550000190734864,
+                "x": -50.766998291015628,
                 "y": -4.65500020980835,
-                "z": 60.880001068115237
+                "z": 73.96099853515625
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6384,9 +6384,9 @@
             "modelName": "Sofa-InCloud--Daybed with 1 arm right 150x130cm",
             "githubUrl": "assetbundles/sofa-incloud--daybed with 1 arm right 150x130cm.bundle",
             "position": {
-                "x": 11.437000274658204,
+                "x": -48.162994384765628,
                 "y": -4.65500020980835,
-                "z": 60.999000549316409
+                "z": 73.9990005493164
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -6924,7 +6924,7 @@
             "modelName": "Sofa-Upper-Terminal right-200",
             "githubUrl": "assetbundles/sofa-upper-terminal right-200.bundle",
             "position": {
-                "x": 19.8700008392334,
+                "x": 36.04000473022461,
                 "y": -4.65500020980835,
                 "z": 93.6300048828125
             },
@@ -6944,7 +6944,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue right-200",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue right-200.bundle",
             "position": {
-                "x": 19.3700008392334,
+                "x": 35.54000473022461,
                 "y": -4.65500020980835,
                 "z": 101.69999694824219
             },
@@ -6964,7 +6964,7 @@
             "modelName": "Sofa-Upper-Terminal left-210",
             "githubUrl": "assetbundles/sofa-upper-terminal left-210.bundle",
             "position": {
-                "x": 26.479997634887697,
+                "x": 42.64999771118164,
                 "y": -4.65500020980835,
                 "z": 85.31999969482422
             },
@@ -6984,7 +6984,7 @@
             "modelName": "Sofa-Upper-sofa-196",
             "githubUrl": "assetbundles/sofa-upper-sofa-196.bundle",
             "position": {
-                "x": 23.1299991607666,
+                "x": 39.29999923706055,
                 "y": -4.65500020980835,
                 "z": 108.19000244140625
             },
@@ -7004,7 +7004,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue right-180",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue right-180.bundle",
             "position": {
-                "x": 14.195000648498536,
+                "x": 30.364999771118165,
                 "y": -4.65500020980835,
                 "z": 98.32499694824219
             },
@@ -7024,7 +7024,7 @@
             "modelName": "Sofa-Upper-Terminal with arm left-258",
             "githubUrl": "assetbundles/sofa-upper-terminal with arm left-258.bundle",
             "position": {
-                "x": 22.69999885559082,
+                "x": 38.869998931884769,
                 "y": -4.65500020980835,
                 "z": 98.99000549316406
             },
@@ -7044,7 +7044,7 @@
             "modelName": "Sofa-Upper-Terminal left-190",
             "githubUrl": "assetbundles/sofa-upper-terminal left-190.bundle",
             "position": {
-                "x": 20.920000076293947,
+                "x": 37.09000015258789,
                 "y": -4.65500020980835,
                 "z": 87.35000610351563
             },
@@ -7064,7 +7064,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue right-230",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue right-230.bundle",
             "position": {
-                "x": 11.74000072479248,
+                "x": 27.909997940063478,
                 "y": -4.65500020980835,
                 "z": 100.0
             },
@@ -7084,7 +7084,7 @@
             "modelName": "Sofa-Upper-sofa with no arms-170",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms-170.bundle",
             "position": {
-                "x": 28.68999671936035,
+                "x": 44.8599967956543,
                 "y": -4.65500020980835,
                 "z": 96.25999450683594
             },
@@ -7104,7 +7104,7 @@
             "modelName": "Sofa-Upper-sofa-236",
             "githubUrl": "assetbundles/sofa-upper-sofa-236.bundle",
             "position": {
-                "x": 23.010000228881837,
+                "x": 39.18000411987305,
                 "y": -4.65500020980835,
                 "z": 103.27000427246094
             },
@@ -7124,7 +7124,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue right-210",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue right-210.bundle",
             "position": {
-                "x": 14.289999961853028,
+                "x": 30.46000099182129,
                 "y": -4.65500020980835,
                 "z": 102.94000244140625
             },
@@ -7144,7 +7144,7 @@
             "modelName": "Sofa-Upper-Terminal right-230",
             "githubUrl": "assetbundles/sofa-upper-terminal right-230.bundle",
             "position": {
-                "x": 17.26000213623047,
+                "x": 33.43000411987305,
                 "y": -4.65500020980835,
                 "z": 91.74000549316406
             },
@@ -7164,7 +7164,7 @@
             "modelName": "Sofa-Upper-Terminal right-180",
             "githubUrl": "assetbundles/sofa-upper-terminal right-180.bundle",
             "position": {
-                "x": 12.480000495910645,
+                "x": 28.649999618530275,
                 "y": -4.65500020980835,
                 "z": 87.29000091552735
             },
@@ -7184,7 +7184,7 @@
             "modelName": "Sofa-Upper-Terminal left-250",
             "githubUrl": "assetbundles/sofa-upper-terminal left-250.bundle",
             "position": {
-                "x": 15.339999198913575,
+                "x": 31.50999641418457,
                 "y": -4.65500020980835,
                 "z": 88.48500061035156
             },
@@ -7204,7 +7204,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue right-220",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue right-220.bundle",
             "position": {
-                "x": 16.90999984741211,
+                "x": 33.07999801635742,
                 "y": -4.65500020980835,
                 "z": 98.30999755859375
             },
@@ -7224,7 +7224,7 @@
             "modelName": "Sofa-Upper-Terminal with arm right-258",
             "githubUrl": "assetbundles/sofa-upper-terminal with arm right-258.bundle",
             "position": {
-                "x": 22.69999885559082,
+                "x": 38.869998931884769,
                 "y": -4.65500020980835,
                 "z": 97.36000061035156
             },
@@ -7244,7 +7244,7 @@
             "modelName": "Sofa-Upper-Terminal right-170",
             "githubUrl": "assetbundles/sofa-upper-terminal right-170.bundle",
             "position": {
-                "x": 15.679999351501465,
+                "x": 31.850000381469728,
                 "y": -4.625,
                 "z": 85.58999633789063
             },
@@ -7264,7 +7264,7 @@
             "modelName": "Sofa-Upper-Terminal left-230",
             "githubUrl": "assetbundles/sofa-upper-terminal left-230.bundle",
             "position": {
-                "x": 29.729997634887697,
+                "x": 45.89999771118164,
                 "y": -4.65500020980835,
                 "z": 87.27999877929688
             },
@@ -7284,7 +7284,7 @@
             "modelName": "Sofa-Upper-Terminal left-240",
             "githubUrl": "assetbundles/sofa-upper-terminal left-240.bundle",
             "position": {
-                "x": 17.330001831054689,
+                "x": 33.500003814697269,
                 "y": -4.65500020980835,
                 "z": 93.37000274658203
             },
@@ -7304,7 +7304,7 @@
             "modelName": "Sofa-Upper-sofa-186",
             "githubUrl": "assetbundles/sofa-upper-sofa-186.bundle",
             "position": {
-                "x": 27.970998764038087,
+                "x": 44.1410026550293,
                 "y": -4.65500020980835,
                 "z": 103.25
             },
@@ -7324,7 +7324,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue right-170",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue right-170.bundle",
             "position": {
-                "x": 11.859999656677246,
+                "x": 33.23999786376953,
                 "y": -4.65500020980835,
                 "z": 104.58200073242188
             },
@@ -7344,7 +7344,7 @@
             "modelName": "Sofa-Upper-Terminal left-200",
             "githubUrl": "assetbundles/sofa-upper-terminal left-200.bundle",
             "position": {
-                "x": 18.1299991607666,
+                "x": 34.29999923706055,
                 "y": -4.65500020980835,
                 "z": 87.35000610351563
             },
@@ -7364,7 +7364,7 @@
             "modelName": "Sofa-Upper-sofa-216",
             "githubUrl": "assetbundles/sofa-upper-sofa-216.bundle",
             "position": {
-                "x": 25.516000747680665,
+                "x": 41.68600082397461,
                 "y": -4.65500020980835,
                 "z": 103.06500244140625
             },
@@ -7384,7 +7384,7 @@
             "modelName": "Sofa-Upper-sofa with no arms-220",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms-220.bundle",
             "position": {
-                "x": 28.850000381469728,
+                "x": 45.02000045776367,
                 "y": -4.65500020980835,
                 "z": 99.0979995727539
             },
@@ -7404,7 +7404,7 @@
             "modelName": "Sofa-Upper-sofa with no arms-190",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms-190.bundle",
             "position": {
-                "x": 26.280000686645509,
+                "x": 42.45000076293945,
                 "y": -4.65500020980835,
                 "z": 96.23999786376953
             },
@@ -7424,7 +7424,7 @@
             "modelName": "Sofa-Upper-Terminal left-220",
             "githubUrl": "assetbundles/sofa-upper-terminal left-220.bundle",
             "position": {
-                "x": 26.600000381469728,
+                "x": 42.77000045776367,
                 "y": -4.65500020980835,
                 "z": 87.35000610351563
             },
@@ -7444,7 +7444,7 @@
             "modelName": "Sofa-Upper-sofa with no arms-180",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms-180.bundle",
             "position": {
-                "x": 26.229997634887697,
+                "x": 42.39999771118164,
                 "y": -4.65500020980835,
                 "z": 97.82999420166016
             },
@@ -7464,7 +7464,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue right-190",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue right-190.bundle",
             "position": {
-                "x": 11.839999198913575,
+                "x": 33.21999740600586,
                 "y": -4.65500020980835,
                 "z": 102.76200103759766
             },
@@ -7484,7 +7484,7 @@
             "modelName": "Sofa-Upper-Terminal left-260",
             "githubUrl": "assetbundles/sofa-upper-terminal left-260.bundle",
             "position": {
-                "x": 22.969999313354493,
+                "x": 39.1400032043457,
                 "y": -4.215000152587891,
                 "z": 91.22000122070313
             },
@@ -7504,7 +7504,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue left-230",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue left-230.bundle",
             "position": {
-                "x": 14.765999794006348,
+                "x": 30.935998916625978,
                 "y": -4.65500020980835,
                 "z": 100.9000015258789
             },
@@ -7524,7 +7524,7 @@
             "modelName": "Sofa-Upper-sofa-256",
             "githubUrl": "assetbundles/sofa-upper-sofa-256.bundle",
             "position": {
-                "x": 26.049997329711915,
+                "x": 42.21999740600586,
                 "y": -4.65500020980835,
                 "z": 106.44999694824219
             },
@@ -7544,9 +7544,9 @@
             "modelName": "Sofa-Upper-Terminal right-250",
             "githubUrl": "assetbundles/sofa-upper-terminal right-250.bundle",
             "position": {
-                "x": 32.869998931884769,
+                "x": 46.06999969482422,
                 "y": -4.65500020980835,
-                "z": 87.47999572753906
+                "z": 91.55000305175781
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -7564,7 +7564,7 @@
             "modelName": "Sofa-Upper-Terminal left-170",
             "githubUrl": "assetbundles/sofa-upper-terminal left-170.bundle",
             "position": {
-                "x": 20.059999465942384,
+                "x": 36.22999954223633,
                 "y": -4.65500020980835,
                 "z": 90.18000030517578
             },
@@ -7584,7 +7584,7 @@
             "modelName": "Sofa-Upper-Terminal right-210",
             "githubUrl": "assetbundles/sofa-upper-terminal right-210.bundle",
             "position": {
-                "x": 20.579999923706056,
+                "x": 36.750003814697269,
                 "y": -4.65500020980835,
                 "z": 85.44000244140625
             },
@@ -7604,7 +7604,7 @@
             "modelName": "Sofa-Upper-Terminal right-220",
             "githubUrl": "assetbundles/sofa-upper-terminal right-220.bundle",
             "position": {
-                "x": 23.600000381469728,
+                "x": 39.77000045776367,
                 "y": -4.65500020980835,
                 "z": 85.22999572753906
             },
@@ -7624,7 +7624,7 @@
             "modelName": "Sofa-Upper-sofa-206",
             "githubUrl": "assetbundles/sofa-upper-sofa-206.bundle",
             "position": {
-                "x": 28.2029972076416,
+                "x": 44.37299728393555,
                 "y": -4.65500020980835,
                 "z": 104.81999969482422
             },
@@ -7644,9 +7644,9 @@
             "modelName": "Sofa-Upper-sofa with no arms-200",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms-200.bundle",
             "position": {
-                "x": 31.50999641418457,
+                "x": 31.1199893951416,
                 "y": -4.65500020980835,
-                "z": 97.73999786376953
+                "z": 93.72999572753906
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -7664,7 +7664,7 @@
             "modelName": "Sofa-Upper-Terminal with arm left-268",
             "githubUrl": "assetbundles/sofa-upper-terminal with arm left-268.bundle",
             "position": {
-                "x": 22.69999885559082,
+                "x": 38.869998931884769,
                 "y": -4.65500020980835,
                 "z": 93.83999633789063
             },
@@ -7684,7 +7684,7 @@
             "modelName": "Sofa-Upper-Terminal right-190",
             "githubUrl": "assetbundles/sofa-upper-terminal right-190.bundle",
             "position": {
-                "x": 26.409997940063478,
+                "x": 42.57999801635742,
                 "y": -4.65500020980835,
                 "z": 93.51000213623047
             },
@@ -7704,7 +7704,7 @@
             "modelName": "Sofa-Upper-sofa with no arms & chaise longue right-160",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms & chaise longue right-160.bundle",
             "position": {
-                "x": 11.997000694274903,
+                "x": 28.167001724243165,
                 "y": -4.65500020980835,
                 "z": 98.46499633789063
             },
@@ -7724,7 +7724,7 @@
             "modelName": "Sofa-Upper-Terminal right-260",
             "githubUrl": "assetbundles/sofa-upper-terminal right-260.bundle",
             "position": {
-                "x": 23.709997177124025,
+                "x": 39.880001068115237,
                 "y": -4.65500020980835,
                 "z": 87.3800048828125
             },
@@ -7744,9 +7744,9 @@
             "modelName": "Sofa-Upper-sofa with no arms-210",
             "githubUrl": "assetbundles/sofa-upper-sofa with no arms-210.bundle",
             "position": {
-                "x": 31.220003128051759,
+                "x": 30.82999610900879,
                 "y": -4.65500020980835,
-                "z": 96.23999786376953
+                "z": 92.22999572753906
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -7764,7 +7764,7 @@
             "modelName": "Sofa-Upper-sofa-226",
             "githubUrl": "assetbundles/sofa-upper-sofa-226.bundle",
             "position": {
-                "x": 20.155000686645509,
+                "x": 36.32500076293945,
                 "y": -4.65500020980835,
                 "z": 107.94599914550781
             },
@@ -7784,7 +7784,7 @@
             "modelName": "Sofa-Upper-sofa-246",
             "githubUrl": "assetbundles/sofa-upper-sofa-246.bundle",
             "position": {
-                "x": 19.6200008392334,
+                "x": 35.79000473022461,
                 "y": -4.65500020980835,
                 "z": 104.25
             },
@@ -7804,7 +7804,7 @@
             "modelName": "Sofa-Upper-Terminal left-180",
             "githubUrl": "assetbundles/sofa-upper-terminal left-180.bundle",
             "position": {
-                "x": 18.19999885559082,
+                "x": 34.369998931884769,
                 "y": -4.65500020980835,
                 "z": 85.66000366210938
             },
@@ -7824,7 +7824,7 @@
             "modelName": "Sofa-Upper-Terminal right-240",
             "githubUrl": "assetbundles/sofa-upper-terminal right-240.bundle",
             "position": {
-                "x": 27.01999855041504,
+                "x": 43.189998626708987,
                 "y": -4.65500020980835,
                 "z": 90.36000061035156
             },
@@ -7844,7 +7844,7 @@
             "modelName": "Sofa-Upper-Terminal with arm right-268",
             "githubUrl": "assetbundles/sofa-upper-terminal with arm right-268.bundle",
             "position": {
-                "x": 22.69999885559082,
+                "x": 38.869998931884769,
                 "y": -4.65500020980835,
                 "z": 95.68000030517578
             },
@@ -7864,9 +7864,9 @@
             "modelName": "Sofa-InCloud-Corner left 104x104cm",
             "githubUrl": "assetbundles/sofa-incloud-corner left 104x104cm.bundle",
             "position": {
-                "x": 13.39699935913086,
+                "x": -46.20299530029297,
                 "y": -4.65500020980835,
-                "z": 59.492000579833987
+                "z": 72.49200439453125
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -7875,18 +7875,18 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 10.0,
-                "y": 10.0,
-                "z": 10.0
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
             }
         },
         {
             "modelName": "Sofa-InCloud-Corner right 104x104cm",
             "githubUrl": "assetbundles/sofa-incloud-corner right 104x104cm.bundle",
             "position": {
-                "x": 14.833999633789063,
+                "x": -44.76599884033203,
                 "y": -4.65500020980835,
-                "z": 59.492000579833987
+                "z": 72.49200439453125
             },
             "rotation": {
                 "x": -0.7071068286895752,
@@ -7895,9 +7895,9 @@
                 "w": 0.7071068286895752
             },
             "scale": {
-                "x": 10.0,
-                "y": 10.0,
-                "z": 10.0
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
             }
         }
     ]
