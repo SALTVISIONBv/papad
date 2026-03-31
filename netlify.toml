@@ -91,7 +91,7 @@
     Cross-Origin-Opener-Policy = "same-origin"
     
     # Prevent clickjacking
-    X-Frame-Options = "SAMEORIGIN"
+    X-Frame-Options = "ALLOWALL"
     
     # Prevent MIME type sniffing
     X-Content-Type-Options = "nosniff"
