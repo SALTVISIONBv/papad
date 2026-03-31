@@ -105,6 +105,12 @@
   to = "/index.html"
   status = 200
 
+  
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Content-Security-Policy = "frame-ancestors 'self' https://papadatos.demonewvisibility.it https://*.demonewvisibility.it"
+    
 # ============================================================================
 # DEPLOYMENT CHECKLIST:
 # ============================================================================
