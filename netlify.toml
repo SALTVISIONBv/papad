@@ -98,6 +98,9 @@
     
     # Enable XSS protection
     X-XSS-Protection = "1; mode=block"
+    
+    # Allow iframe embedding from Papadatos website
+    Content-Security-Policy = "frame-ancestors 'self' https://papadatos.demonewvisibility.it https://*.demonewvisibility.it"
 
 # Redirect rules (if needed)
 [[redirects]]
@@ -106,10 +109,7 @@
   status = 200
 
 
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Content-Security-Policy = "frame-ancestors 'self' https://papadatos.demonewvisibility.it https://*.demonewvisibility.it"
+
     
 # ============================================================================
 # DEPLOYMENT CHECKLIST:
