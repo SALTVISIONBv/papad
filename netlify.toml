@@ -91,16 +91,13 @@
     Cross-Origin-Opener-Policy = "same-origin"
     
     # Prevent clickjacking
-    X-Frame-Options = "ALLOWALL"
+    X-Frame-Options = "SAMEORIGIN"
     
     # Prevent MIME type sniffing
     X-Content-Type-Options = "nosniff"
     
     # Enable XSS protection
     X-XSS-Protection = "1; mode=block"
-    
-    # Allow iframe embedding from Papadatos website
-    Content-Security-Policy = "frame-ancestors 'self' https://papadatos.demonewvisibility.it https://*.demonewvisibility.it"
 
 # Redirect rules (if needed)
 [[redirects]]
@@ -108,9 +105,6 @@
   to = "/index.html"
   status = 200
 
-
-
-    
 # ============================================================================
 # DEPLOYMENT CHECKLIST:
 # ============================================================================
