@@ -86,18 +86,20 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    # REQUIRED for Unity WebGL threading/SharedArrayBuffer support
+    # 1️⃣ Unity WebGL threading & SharedArrayBuffer support
     Cross-Origin-Embedder-Policy = "require-corp"
-    Cross-Origin-Opener-Policy = "same-origin"
-    
-    # Prevent clickjacking
-    X-Frame-Options = "SAMEORIGIN"
-    
-    # Prevent MIME type sniffing
+    Cross-Origin-Opener-Policy  = "same-origin"
+
+    # 2️⃣ Allow any domain to embed this content
+    #    (CSP is the modern, recommended way)
+    Content-Security-Policy = "frame-ancestors *;"
+
+    # 3️⃣ Optional – remove the old X‑Frame‑Options header
+    # X-Frame-Options = "ALLOWALL"   <-- DELETE THIS LINE
+
+    # 4️⃣ Basic security headers
     X-Content-Type-Options = "nosniff"
-    
-    # Enable XSS protection
-    X-XSS-Protection = "1; mode=block"
+    X-XSS-Protection        = "1; mode=block"
 
 # Redirect rules (if needed)
 [[redirects]]
