@@ -7959,6 +7959,646 @@
                 "y": 1.0,
                 "z": 1.0
             }
+        },
+        {
+            "modelName": "SOFA WITH 1 ARM LEFT OR RIGHT-95",
+            "githubUrl": "assetbundles/sofa with 1 arm left or right-95.bundle",
+            "position": {
+                "x": 9.639999389648438,
+                "y": -4.65500020980835,
+                "z": 65.8530044555664
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "pouf_70",
+            "githubUrl": "assetbundles/pouf_70.bundle",
+            "position": {
+                "x": 10.715999603271485,
+                "y": -4.65500020980835,
+                "z": 68.7770004272461
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Rubik bedside tables",
+            "githubUrl": "assetbundles/rubik bedside tables.bundle",
+            "position": {
+                "x": 0.3299999237060547,
+                "y": -4.65500020980835,
+                "z": 67.41000366210938
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "SOFA WITH 1 ARM LEFT OR RIGHT-105",
+            "githubUrl": "assetbundles/sofa with 1 arm left or right-105.bundle",
+            "position": {
+                "x": 8.423999786376954,
+                "y": -4.65500020980835,
+                "z": 65.8530044555664
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Curo low tables a",
+            "githubUrl": "assetbundles/curo low tables a.bundle",
+            "position": {
+                "x": 4.041999340057373,
+                "y": -4.65500020980835,
+                "z": 67.5250015258789
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Fiji Lounge Table",
+            "githubUrl": "assetbundles/fiji lounge table.bundle",
+            "position": {
+                "x": 1.6829992532730103,
+                "y": -4.65500020980835,
+                "z": 67.81700134277344
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Selene low table_b",
+            "githubUrl": "assetbundles/selene low table_b.bundle",
+            "position": {
+                "x": 3.039999485015869,
+                "y": -4.65500020980835,
+                "z": 68.86399841308594
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Selene low table_a",
+            "githubUrl": "assetbundles/selene low table_a.bundle",
+            "position": {
+                "x": 4.0749993324279789,
+                "y": -4.65500020980835,
+                "z": 68.86399841308594
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "SOFA WITH no arm_90",
+            "githubUrl": "assetbundles/sofa with no arm_90.bundle",
+            "position": {
+                "x": 9.458999633789063,
+                "y": -4.65500020980835,
+                "z": 67.19400024414063
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Rubik V",
+            "githubUrl": "assetbundles/rubik v.bundle",
+            "position": {
+                "x": 0.021999478340148927,
+                "y": -4.65500020980835,
+                "z": 66.54499816894531
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Ovvio chair",
+            "githubUrl": "assetbundles/ovvio chair.bundle",
+            "position": {
+                "x": 1.8119994401931763,
+                "y": -4.65500020980835,
+                "z": 68.90499877929688
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "SOFA WITH 1 ARM LEFT OR RIGHT-85 right",
+            "githubUrl": "assetbundles/sofa with 1 arm left or right-85 right.bundle",
+            "position": {
+                "x": 11.069999694824219,
+                "y": -4.65500020980835,
+                "z": 65.8530044555664
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "pouf_60",
+            "githubUrl": "assetbundles/pouf_60.bundle",
+            "position": {
+                "x": 12.027999877929688,
+                "y": -4.65500020980835,
+                "z": 68.7770004272461
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "pouf_100",
+            "githubUrl": "assetbundles/pouf_100.bundle",
+            "position": {
+                "x": 6.900000095367432,
+                "y": -4.65500020980835,
+                "z": 68.7770004272461
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "SOFA WITH no arm_80",
+            "githubUrl": "assetbundles/sofa with no arm_80.bundle",
+            "position": {
+                "x": 6.993000030517578,
+                "y": -4.65500020980835,
+                "z": 67.19400024414063
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "SOFA WITH 1 ARM LEFT OR RIGHT-85",
+            "githubUrl": "assetbundles/sofa with 1 arm left or right-85.bundle",
+            "position": {
+                "x": 6.999000072479248,
+                "y": -4.65500020980835,
+                "z": 65.8530044555664
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "SOFA WITH 1 ARM LEFT OR RIGHT-105 right",
+            "githubUrl": "assetbundles/sofa with 1 arm left or right-105 right.bundle",
+            "position": {
+                "x": 12.494998931884766,
+                "y": -4.65500020980835,
+                "z": 65.8530044555664
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Curo low tables b",
+            "githubUrl": "assetbundles/curo low tables b.bundle",
+            "position": {
+                "x": 2.8719992637634279,
+                "y": -4.65500020980835,
+                "z": 67.5250015258789
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Rubik bedside tables b",
+            "githubUrl": "assetbundles/rubik bedside tables b.bundle",
+            "position": {
+                "x": -0.32800042629241946,
+                "y": -4.65500020980835,
+                "z": 67.41000366210938
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "pouf_90",
+            "githubUrl": "assetbundles/pouf_90.bundle",
+            "position": {
+                "x": 8.300000190734864,
+                "y": -4.65500020980835,
+                "z": 68.7770004272461
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Albero low table",
+            "githubUrl": "assetbundles/albero low table.bundle",
+            "position": {
+                "x": 5.341999530792236,
+                "y": -4.65500020980835,
+                "z": 67.47500610351563
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "armchair L",
+            "githubUrl": "assetbundles/armchair l.bundle",
+            "position": {
+                "x": 9.609999656677246,
+                "y": -4.65500020980835,
+                "z": 64.36500549316406
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "SOFA WITH 1 ARM LEFT OR RIGHT-95 right",
+            "githubUrl": "assetbundles/sofa with 1 arm left or right-95 right.bundle",
+            "position": {
+                "x": 13.71099853515625,
+                "y": -4.65500020980835,
+                "z": 65.8530044555664
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": -1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "pouf_80",
+            "githubUrl": "assetbundles/pouf_80.bundle",
+            "position": {
+                "x": 9.50999927520752,
+                "y": -4.65500020980835,
+                "z": 68.7770004272461
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "Orbit desk",
+            "githubUrl": "assetbundles/orbit desk.bundle",
+            "position": {
+                "x": 5.28000020980835,
+                "y": -4.65500020980835,
+                "z": 68.79000091552735
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "SOFA WITH no arm_100",
+            "githubUrl": "assetbundles/sofa with no arm_100.bundle",
+            "position": {
+                "x": 8.297999382019043,
+                "y": -4.65500020980835,
+                "z": 67.19400024414063
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "3 side table a rt",
+            "githubUrl": "assetbundles/3 side table a rt.bundle",
+            "position": {
+                "x": 6.931000232696533,
+                "y": -4.65500020980835,
+                "z": 64.36500549316406
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "bed 246 L",
+            "githubUrl": "assetbundles/bed 246 l.bundle",
+            "position": {
+                "x": 1.399999976158142,
+                "y": -4.65500020980835,
+                "z": 63.970001220703128
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "bed 226 L",
+            "githubUrl": "assetbundles/bed 226 l.bundle",
+            "position": {
+                "x": 4.177000045776367,
+                "y": -4.65500020980835,
+                "z": 63.970001220703128
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "4-free standing arm",
+            "githubUrl": "assetbundles/4-free standing arm.bundle",
+            "position": {
+                "x": 8.269000053405762,
+                "y": -4.65500020980835,
+                "z": 64.36500549316406
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "FREE STANDING rec_60",
+            "githubUrl": "assetbundles/free standing rec_60.bundle",
+            "position": {
+                "x": 9.519999504089356,
+                "y": -4.65500020980835,
+                "z": 62.2400016784668
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
+        },
+        {
+            "modelName": "FREE STANDING rec 101",
+            "githubUrl": "assetbundles/free standing rec 101.bundle",
+            "position": {
+                "x": 8.420000076293946,
+                "y": -4.65500020980835,
+                "z": 62.23999786376953
+            },
+            "rotation": {
+                "x": -0.7071068286895752,
+                "y": 0.0,
+                "z": 0.0,
+                "w": 0.7071068286895752
+            },
+            "scale": {
+                "x": 1.0,
+                "y": 1.0,
+                "z": 1.0
+            }
         }
     ]
 }
